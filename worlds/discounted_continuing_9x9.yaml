@@ -1,0 +1,294 @@
+'...Action Taken': true
+'...Episode Finish': true
+'...Episode Start': true
+'...Experience Update': true
+'...Planning Update': true
+Algorithm: 10-Step SARSA
+"Decay \u03B5 Episode-wise": false
+"Discount \u03B3": 0.9
+Dyna-Q n: 0
+Expectation Update: false
+"Exploration Rate \u03B5": 0.5
+"Exploration Rate \u03B5\u200C": 0.0
+Ice Floor: false
+Initial Q-Value Mean: 0.0
+Initial Q-Value Sigma: 0.0
+"Learning Rate \u03B1": 0.1
+Min Delay [ms]: 10
+On-Policy: true
+Operations Left: 100000
+Reward Cyan: 20
+Reward Grey: -1
+Reward Red: -100
+Show Every...: 1
+Visualize Memory: true
+H-Torus: false
+W-Torus: false
+n-Step n: 10
+world:
+- - bg: white
+    borderColor: grey
+    text: ''
+  - bg: white
+    borderColor: grey
+    text: ''
+  - bg: white
+    borderColor: grey
+    text: ''
+  - bg: white
+    borderColor: grey
+    text: ''
+  - bg: white
+    borderColor: grey
+    text: ''
+  - bg: white
+    borderColor: grey
+    text: ''
+  - bg: white
+    borderColor: grey
+    text: ''
+  - bg: white
+    borderColor: grey
+    text: ''
+  - bg: white
+    borderColor: grey
+    text: 1+
+- - bg: white
+    borderColor: grey
+    text: ''
+  - bg: black
+    borderColor: grey
+    text: ''
+  - bg: black
+    borderColor: grey
+    text: ''
+  - bg: black
+    borderColor: grey
+    text: ''
+  - bg: black
+    borderColor: grey
+    text: ''
+  - bg: black
+    borderColor: grey
+    text: ''
+  - bg: black
+    borderColor: grey
+    text: ''
+  - bg: black
+    borderColor: grey
+    text: ''
+  - bg: black
+    borderColor: grey
+    text: ''
+- - bg: white
+    borderColor: grey
+    text: ''
+  - bg: white
+    borderColor: grey
+    text: ''
+  - bg: white
+    borderColor: grey
+    text: ''
+  - bg: white
+    borderColor: grey
+    text: ''
+  - bg: white
+    borderColor: grey
+    text: ''
+  - bg: white
+    borderColor: grey
+    text: ''
+  - bg: white
+    borderColor: grey
+    text: ''
+  - bg: white
+    borderColor: grey
+    text: ''
+  - bg: white
+    borderColor: grey
+    text: 1+
+- - bg: black
+    borderColor: grey
+    text: ''
+  - bg: black
+    borderColor: grey
+    text: ''
+  - bg: black
+    borderColor: grey
+    text: ''
+  - bg: black
+    borderColor: grey
+    text: ''
+  - bg: black
+    borderColor: grey
+    text: ''
+  - bg: black
+    borderColor: grey
+    text: ''
+  - bg: black
+    borderColor: grey
+    text: ''
+  - bg: white
+    borderColor: grey
+    text: 1+
+  - bg: white
+    borderColor: grey
+    text: 1+
+- - bg: white
+    borderColor: Cyan
+    text: '1 '
+  - bg: white
+    borderColor: grey
+    text: ''
+  - bg: white
+    borderColor: grey
+    text: ''
+  - bg: white
+    borderColor: grey
+    text: ''
+  - bg: white
+    borderColor: grey
+    text: ''
+  - bg: white
+    borderColor: grey
+    text: ''
+  - bg: white
+    borderColor: grey
+    text: 1+
+  - bg: white
+    borderColor: grey
+    text: 1+
+  - bg: white
+    borderColor: grey
+    text: S
+- - bg: black
+    borderColor: grey
+    text: ''
+  - bg: black
+    borderColor: grey
+    text: ''
+  - bg: black
+    borderColor: grey
+    text: ''
+  - bg: black
+    borderColor: grey
+    text: ''
+  - bg: black
+    borderColor: grey
+    text: ''
+  - bg: black
+    borderColor: grey
+    text: ''
+  - bg: black
+    borderColor: grey
+    text: ''
+  - bg: white
+    borderColor: grey
+    text: 1+
+  - bg: white
+    borderColor: grey
+    text: 1+
+- - bg: white
+    borderColor: grey
+    text: ''
+  - bg: white
+    borderColor: grey
+    text: ''
+  - bg: white
+    borderColor: grey
+    text: ''
+  - bg: white
+    borderColor: grey
+    text: ''
+  - bg: white
+    borderColor: grey
+    text: ''
+  - bg: white
+    borderColor: grey
+    text: ''
+  - bg: white
+    borderColor: grey
+    text: ''
+  - bg: white
+    borderColor: grey
+    text: ''
+  - bg: white
+    borderColor: grey
+    text: 1+
+- - bg: white
+    borderColor: grey
+    text: ''
+  - bg: black
+    borderColor: grey
+    text: ''
+  - bg: black
+    borderColor: grey
+    text: ''
+  - bg: black
+    borderColor: grey
+    text: ''
+  - bg: black
+    borderColor: grey
+    text: ''
+  - bg: black
+    borderColor: grey
+    text: ''
+  - bg: black
+    borderColor: grey
+    text: ''
+  - bg: black
+    borderColor: grey
+    text: ''
+  - bg: black
+    borderColor: grey
+    text: ''
+- - bg: white
+    borderColor: grey
+    text: ''
+  - bg: white
+    borderColor: grey
+    text: ''
+  - bg: white
+    borderColor: grey
+    text: ''
+  - bg: white
+    borderColor: grey
+    text: ''
+  - bg: white
+    borderColor: grey
+    text: ''
+  - bg: white
+    borderColor: grey
+    text: ''
+  - bg: white
+    borderColor: grey
+    text: ''
+  - bg: white
+    borderColor: grey
+    text: ''
+  - bg: white
+    borderColor: grey
+    text: 1+
+hWind:
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+wWind:
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+"\u03B1 = 1/count((S,A))": false
+"\u03B5-Decay Rate": 0.9999
+"\u03B5-Decay Rate\u200C": 1.0
